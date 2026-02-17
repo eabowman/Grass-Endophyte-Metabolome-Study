@@ -1,0 +1,37 @@
+Sample.no,Site,Genus,Epithet,Species,Species_final_nov24,Native.status,Native.status.fine,lat,long,collection.date,site.notes,slants.with.growth,total.slants,SampleID,metabolite_richness
+MM.1,R05,Megathyrsus,maximus,Megathyrsus.maximus,Megathyrsus.maximus,Nonnative,Widespread.invasive,27.23935245,-97.97910981,2-Jun-20,Sampled clumps of plants with each specimen > 1 m apart,6,96,144746,667
+MM.2,R05,Megathyrsus,maximus,Megathyrsus.maximus,Megathyrsus.maximus,Nonnative,Widespread.invasive,27.23935245,-97.97910981,2-Jun-20,Sampled clumps of plants with each specimen > 1 m apart,11,96,144747,659
+MM.3,R05,Megathyrsus,maximus,Megathyrsus.maximus,Megathyrsus.maximus,Nonnative,Widespread.invasive,27.23935245,-97.97910981,2-Jun-20,Sampled clumps of plants with each specimen > 1 m apart,16,95,144748,697
+UT.1,WSDM3,Paspalum,plicatulum,Paspalum.plicatulum,Paspalum.plicatulum,Native,Native,27.1877,-97.95592,2-Jun-20,Sampled clumps of plants with each specimen > 1 m apart,46,96,144749,586
+UT.2,WSDM3,Urochloa,mosambicensis,Urochloa.mosambicensis,Urochloa.mosambicensis,Nonnative,Established,27.1877,-97.95592,2-Jun-20,Sampled clumps of plants with each specimen > 1 m apart,66,96,144750,717
+UT.3,WSDM3,Urochloa,mosambicensis,Urochloa.mosambicensis,Urochloa.mosambicensis,Nonnative,Established,27.1877,-97.95592,2-Jun-20,Sampled clumps of plants with each specimen > 1 m apart,51,96,144751,753
+MR.1,R05,Melinis,repens,Melinis.repens,Melinis.repens,Nonnative,Widespread.invasive,27.23935245,-97.97910981,2-Jun-20,Sampled clumps of plants with each specimen > 1 m apart,40,96,144752,669
+MR.2,R05,Melinis,repens,Melinis.repens,Melinis.repens,Nonnative,Widespread.invasive,27.23935245,-97.97910981,2-Jun-20,Left outside overnight; Sampled clumps of plants with each specimen > 1 m apart,85,96,144753,663
+MR.3,R05,Melinis,repens,Melinis.repens,Melinis.repens,Nonnative,Widespread.invasive,27.23935245,-97.97910981,2-Jun-20,Sampled clumps of plants with each specimen > 1 m apart,82,96,144754,633
+CC.1,R05,Cenchrus,ciliaris,Cenchrus.ciliaris,Cenchrus.ciliaris,Nonnative,Widespread.invasive,27.23935245,-97.97910981,2-Jun-20,Sampled clumps of plants with each specimen > 1 m apart,14,96,144755,514
+CC.2,R05,Cenchrus,ciliaris,Cenchrus.ciliaris,Cenchrus.ciliaris,Nonnative,Widespread.invasive,27.23935245,-97.97910981,2-Jun-20,Sampled clumps of plants with each specimen > 1 m apart,20,96,144756,613
+CC.3,R05,Cenchrus,ciliaris,Cenchrus.ciliaris,Cenchrus.ciliaris,Nonnative,Widespread.invasive,27.23935245,-97.97910981,2-Jun-20,Sampled clumps of plants with each specimen > 1 m apart,31,96,144757,528
+SS.1,M01,Setaria,parviflora,Setaria.parviflora,Setaria.parviflora,Native,Native,27.19105745,-97.96186271,2-Jun-20,Sampled clumps of plants with each specimen > 1 m apart,23,96,144758,662
+SS.2,M01,Setaria,parviflora,Setaria.parviflora,Setaria.parviflora,Native,Native,27.19105745,-97.96186271,2-Jun-20,Sampled clumps of plants with each specimen > 1 m apart,38,96,144759,542
+SS.3,M01,Setaria,parviflora,Setaria.parviflora,Setaria.parviflora,Native,Native,27.19105745,-97.96186271,2-Jun-20,Sampled clumps of plants with each specimen > 1 m apart,28,96,144760,718
+HC.1,R05,Heteropogon,contortus,Heteropogon.contortus,Heteropogon.contortus,Nonnative,Established,27.23935245,-97.97910981,2-Jun-20,Sampled clumps of plants with each specimen > 1 m apart,34,90,144761,671
+HC.2,R05,Heteropogon,contortus,Heteropogon.contortus,Heteropogon.contortus,Nonnative,Established,27.23935245,-97.97910981,2-Jun-20,Sampled clumps of plants with each specimen > 1 m apart,15,96,144762,616
+HC.3,R05,Heteropogon,contortus,Heteropogon.contortus,Heteropogon.contortus,Nonnative,Established,27.23935245,-97.97910981,2-Jun-20,Sampled clumps of plants with each specimen > 1 m apart,11,96,144763,707
+SL.1,E02,Elionurus,tripsacoides,Elionurus.tripsacoides,Elionurus.tripsacoides,Native,Native,27.11740012,-97.95622361,2-Jun-20,Sampled clumps of plants with each specimen > 1 m apart,21,96,144764,841
+SL.2,E02,Elionurus,tripsacoides,Elionurus.tripsacoides,Elionurus.tripsacoides,Native,Native,27.11740012,-97.95622361,2-Jun-20,Sampled clumps of plants with each specimen > 1 m apart,41,96,144765,851
+SL.3,E02,Elionurus,tripsacoides,Elionurus.tripsacoides,Elionurus.tripsacoides,Native,Native,27.11740012,-97.95622361,2-Jun-20,Sampled clumps of plants with each specimen > 1 m apart,66,96,144766,798
+DA.1,R05,Bothriochloa,ischaemum,Bothriochloa.ischaemum,Bothriochloa.ischaemum,Nonnative,Widespread.invasive,27.23935245,-97.97910981,2-Jun-20,Sampled clumps of plants with each specimen > 1 m apart,43,96,144767,550
+DA.2,R05,Bothriochloa,ischaemum,Bothriochloa.ischaemum,Bothriochloa.ischaemum,Nonnative,Widespread.invasive,27.23935245,-97.97910981,2-Jun-20,Sampled clumps of plants with each specimen > 1 m apart,73,97,144768,712
+DA.3,R05,Bothriochloa,ischaemum,Bothriochloa.ischaemum,Bothriochloa.ischaemum,Nonnative,Widespread.invasive,27.23935245,-97.97910981,2-Jun-20,Sampled clumps of plants with each specimen > 1 m apart,28,96,144769,621
+TP.1,WSDM3,Eragrostis,lugens,Eragrostis.lugens,Eragrostis.lugens,Native,Native,27.1877,-97.95592,2-Jun-20,Sampled clumps of plants with each specimen > 1 m apart,9,96,144770,695
+TP.2,WSDM3,Eragrostis,lugens,Eragrostis.lugens,Eragrostis.lugens,Native,Native,27.1877,-97.95592,2-Jun-20,Sampled clumps of plants with each specimen > 1 m apart,3,96,144771,586
+TP.3,WSDM3,Eragrostis,lugens,Eragrostis.lugens,Eragrostis.lugens,Native,Native,27.1877,-97.95592,2-Jun-20,Sampled clumps of plants with each specimen > 1 m apart,48,96,144772,727
+LD.1,E02,Aristida,purpurea var. longestia,Aristida.purpurea var. longestia,Aristida.purpurea var. longestia,Native,Native,27.11740012,-97.95622361,2-Jun-20,Sampled clumps of plants with each specimen > 1 m apart,57,96,144773,568
+LD.2,E02,Aristida,purpurea var. longestia,Aristida.purpurea var. longestia,Aristida.purpurea var. longestia,Native,Native,27.11740012,-97.95622361,2-Jun-20,Sampled clumps of plants with each specimen > 1 m apart,66,96,144774,568
+LD.3,E02,Aristida,purpurea var. longestia,Aristida.purpurea var. longestia,Aristida.purpurea var. longestia,Native,Native,27.11740012,-97.95622361,2-Jun-20,Sampled clumps of plants with each specimen > 1 m apart,73,96,144775,598
+EL.1,R05,Eragrostis,secundiflora,Eragrostis.secundiflora,Eragrostis.secundiflora,Native,Native,27.23935245,-97.97910981,2-Jun-20,Sampled clumps of plants with each specimen > 1 m apart,67,96,144776,735
+EL.2,R05,Eragrostis,secundiflora,Eragrostis.secundiflora,Eragrostis.secundiflora,Native,Native,27.23935245,-97.97910981,2-Jun-20,Sampled clumps of plants with each specimen > 1 m apart,49,96,144777,642
+EL.3,R05,Eragrostis,secundiflora,Eragrostis.secundiflora,Eragrostis.secundiflora,Native,Native,27.23935245,-97.97910981,2-Jun-20,Sampled clumps of plants with each specimen > 1 m apart,45,96,144778,655
+ES.1,R05,Eragrostis,schultzii,Eragrostis.schultzii,Eragrostis.secundiflora,Native,Native,27.23935245,-97.97910981,2-Jun-20,Sampled clumps of plants with each specimen > 1 m apart,61,96,144779,636
+ES.2,R05,Eragrostis,schultzii,Eragrostis.schultzii,Eragrostis.secundiflora,Native,Native,27.23935245,-97.97910981,2-Jun-20,Sampled clumps of plants with each specimen > 1 m apart,36,96,144780,617
+ES.3,R05,Eragrostis,schultzii,Eragrostis.schultzii,Eragrostis.secundiflora,Native,Native,27.23935245,-97.97910981,2-Jun-20,Sampled clumps of plants with each specimen > 1 m apart,57,96,144781,632
