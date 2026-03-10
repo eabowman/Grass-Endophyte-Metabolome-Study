@@ -1,4 +1,4 @@
-The folders here contain R scripts and data files for the article "Chemistry, symbiosis, and the phylogenetic architecture of grass communities." written by Elizabeth A. Bowman and Colin Morrison.
+The folders here contain R scripts and data files for the article "Host phylogeny and fungal foliar endophytes co-structure grass metabolomes." written by Elizabeth A. Bowman*, Colin R. Morrison*, Caroline G. Chessher, Robert M. Plowes, Lawrence E. Gilbert
 
 Elizabeth A. Bowman is the author for correspondence on this article. 
 Address: 2907 Lake Austin Blvd.
