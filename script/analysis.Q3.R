@@ -14,7 +14,7 @@
 # Goal: Identify  metabolite–fungus associations to guide hypotheses about chemical mediation on host plants
 
 
-setwd("")
+setwd("GitHub.G045/.")
 
 library(ggplot2)
 library(vegan)
@@ -29,7 +29,7 @@ library(bipartite)
 ### --- 1. Wrangle and format final OTU-host matrix for LASSO analysis --- ###
 ##############################################################################
 ### load the data 
-fe<-read.csv("G045.CF.OTU.long.csv")
+fe<-read.csv("data/G045.CF.OTU.long.csv")
 dim(fe) # 230 OTUs
 
 ### Identify OTUs that are present >1 SampleID 
@@ -237,8 +237,6 @@ save(coef.metab.OTUs, OTUs, fe, wide_lasso,
      metab.master, siri_real_lasso, nonzero_metabs,
      HAM.coef.metab.OTUs, HAM.coef.metab.OTUs.annot, 
      siri.pos, siri.neg,  file = outfile)
-
-
 
 
 #####################################################################################

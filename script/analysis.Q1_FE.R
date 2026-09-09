@@ -136,13 +136,16 @@ data.cf.cb$Genus <- factor(data.cf.cb$Genus,
 ggplot(data.cf.cb,
        aes(y = read.richness,
            x = Genus,
-           fill = Genus)) +
-  geom_point(shape = 23, color = 'black') +
+           fill = Genus,
+           color = Native.status)) +
   geom_boxplot(alpha = 0.5) +
-  # facet_grid(. ~ Native.status, drop = T) +
+  geom_point(aes(shape = Native.status),
+             size = 2.5) +
   ylab("CF OTU richness") +
   xlab('') +
   scale_fill_brewer(type = 'div', palette = 1) +
+  scale_color_manual(values = c('black', 'grey')) +
+  scale_shape_manual(values = c(23, 21)) +
   theme_classic() +
   theme(axis.text.y = element_text(size = 10, color = 'black'),
         # axis.text.x = element_text(size = 10, color = 'black',
@@ -162,12 +165,16 @@ plot(cf.aov$residuals)
 ggplot(data.cf.cb,
        aes(y = read.abundance,
            x = Genus,
-           fill = Genus)) +
-  geom_point(shape = 23, color = 'black') +
+           fill = Genus,
+           color = Native.status)) +
+  geom_point(aes(shape = Native.status),
+             size = 2.5) +
   geom_boxplot(alpha = 0.5) +
   ylab("CF read abundance") +
   xlab('') +
   scale_fill_brewer(type = 'div', palette = 1) +
+  scale_color_manual(values = c('black', 'grey')) +
+  scale_shape_manual(values = c(23, 21)) +
   theme_classic() +
   theme(axis.text.y = element_text(size = 10, color = 'black'),
         # axis.text.x = element_text(size = 10, color = 'black',
@@ -183,12 +190,16 @@ plot(cb.aov$residuals)
 ggplot(data.cf.cb,
        aes(y = cult.richness,
            x = Genus,
-           fill = Genus)) +
-  geom_point(shape = 23, color = 'black') +
+           fill = Genus,
+           color = Native.status)) +
+  geom_point(aes(shape = Native.status),
+             size = 2.5) +
   geom_boxplot(alpha = 0.5) +
   ylab("CB OTU richness") +
   xlab('') +
   scale_fill_brewer(type = 'div', palette = 1) +
+  scale_color_manual(values = c('black', 'grey')) +
+  scale_shape_manual(values = c(23, 21)) +
   theme_classic() +
   theme(axis.text.y = element_text(size = 10, color = 'black'),
         axis.text.x = element_text(size = 10, color = 'black',
@@ -207,12 +218,16 @@ plot(cb.aov$residuals)
 ggplot(data.cf.cb,
        aes(y = isol.freq,
            x = Genus,
-           fill = Genus)) +
-  geom_point(shape = 23, color = 'black') +
+           fill = Genus,
+           color = Native.status)) +
+  geom_point(aes(shape = Native.status),
+             size = 2.5) +
   geom_boxplot(alpha = 0.5) +
   ylab("CB isol. frequency") +
   xlab('') +
   scale_fill_brewer(type = 'div', palette = 1) +
+  scale_color_manual(values = c('black', 'grey')) +
+  scale_shape_manual(values = c(23, 21)) +
   theme_classic() +
   theme(axis.text.y = element_text(size = 10, color = 'black'),
         axis.text.x = element_text(size = 10, color = 'black',
@@ -220,12 +235,10 @@ ggplot(data.cf.cb,
         axis.title = element_text(size = 12, color = 'black'),
         legend.position = 'none') -> cb.ab.plot
 
+# Supplementary Figure S3 ----
+
 (cf.div.plot + cf.ab.plot + cb.div.plot + cb.ab.plot) +
-  plot_layout(
-    nrow = 2,
-    ncol = 2,
-    guides = "collect"
-  ) + 
+  plot_layout(nrow = 2, ncol = 2, guides = "collect") + 
   plot_annotation(tag_levels = "A") -> SupplFig.S3
 
 ggsave("figure/SupplementaryFigureS3.jpeg",
@@ -495,6 +508,8 @@ jacc.plot.s4a <- ggplot(data = data.scores,
         legend.text = element_text(size = 10),
         legend.position = 'right')
 
+# Supplementary Figure S4 ----
+
 jacc.plot.s4a +
   jacc.plot.s4b +
     plot_layout(
@@ -572,6 +587,7 @@ horn.plot.1b <- ggplot(data = data.scores,
         legend.text = element_text(size = 10),
         legend.position = 'right')
 
+# Figure 1 -----
 # For creation of Figure 1. Have to run analysis.Q1_Metabolome.R prior to 
 # running the beow code as pca1 comes from there.
 pca1 +
@@ -916,6 +932,7 @@ Supplfig.S5f <- data.cb.filtered %>%
         legend.text = element_text(size = 8, color = 'black'),
         legend.title = element_blank())
 
+# Supplementary Figure S5 ----
 Supplfig.S5a +
   Supplfig.S5b +
   Supplfig.S5c +
