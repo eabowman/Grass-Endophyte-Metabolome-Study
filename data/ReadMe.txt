@@ -4,7 +4,6 @@ Sample.no: Host sample name
 Site: Sample site name
 Genus: Host grass genus
 Epithet: Host grass species epithet
-Species: Host grass species name
 Species_final_nov24: Host grass species name
 Native.status: Native status based on Lady Bird Johnson Wildflower Center and USDA plants
 native.status.fine:	Fine native status
@@ -25,7 +24,6 @@ Sample.no: Host sample name
 Site: Sample site name
 Genus: Host grass genus
 Epithet: Host grass species epithet
-Species: Host grass species name
 Species_final_nov24: Host grass species name
 Native.status: Native status based on Lady Bird Johnson Wildflower Center and USDA plants
 native.status.fine:	Fine native status
